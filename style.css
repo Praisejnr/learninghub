@@ -4,7 +4,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   font-size: var(--text-sz);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'FontAwesome', sans-serif;
 }
 
 :root {
@@ -23,8 +23,11 @@
 }
 
 @font-face {
-  font-family: 'Montserrat';
-  src: url('learninghub/fonts/Montserrat-Bold.otf');
+    font-family: 'FontAwesome';
+    src: url('webfonts/fa-solid-900.woff2') format('woff2'),
+         url('webfonts/fa-solid-900.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 h3 {
