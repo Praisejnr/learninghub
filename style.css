@@ -22,20 +22,13 @@
   --transite: 0.3s ease-in;
 }
 
-@font-face {
-    font-family: 'FontAwesome';
-    src: url('webfonts/fa-regular-400.woff2') format('woff2'),
-         url('webfonts/fa-regular-400.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-@font-face {
-    font-family: 'FontAwesomeBrands';
-    src: url('webfonts/fa-brands-400.woff2') format('woff2'),
-         url('webfonts/fa-brands-400.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Uses the bold version */
 }
 
 h3 {
